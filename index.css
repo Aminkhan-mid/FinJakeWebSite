@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 3px 3px 5px #121212;
+    position: relative;
+}
+
+section{
+    border-bottom: 15px solid whitesmoke ;
+}
+.images{
+    width: 400px;
+}
+.caption{
+    font-size: 18px;
+    font-weight: 250;
+    color: #121;
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+    background-color: #121;
+    color: white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 20px 0px;
+    margin: 0;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.logo:hover{
+    text-decoration: underline;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:0px 0px 0px 150px;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.icon:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 0px 15px;
+    margin:30px 0px 5px 0px;
+}
+h2{
+    font-size: 30px;
+    font-weight:600;
+    padding: 0px 10px;
+    margin: 0px 0px 30px 0px;
+}
+
+button{
+    background-image: url("https://i.pinimg.com/736x/c4/85/3b/c4853b0510d728790b296aa1e6fbd629.jpg");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    position: fixed;
+    right: 440px;
+    bottom: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.divForMar{
+    position: relative;
+}
+
+.marPfp{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    cursor: pointer;
+}
+.marPfp:hover{
+    box-shadow: 0px 0px 10px purple;
+}
+.marPfp:active,
+button:active{
+    box-shadow: 1px 1px 10px yellow;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 50;
+    font-size: 25px;
+    margin: 10px 0px;
+    color: lightcoral;
+    text-shadow: 0px 0px 1px black;
+}
+h4{
+    text-align: center;
+    margin-top: 0;
+    cursor: pointer;
+}
+h4:hover{
+    text-decoration: underline;
+    color: blue;
+}
+h4:active{
+    color:cornflowerblue;
+}
